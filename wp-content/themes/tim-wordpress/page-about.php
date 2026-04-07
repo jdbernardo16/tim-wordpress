@@ -23,11 +23,11 @@
 <div class="overflow-x-hidden">
     <!-- Hero Section -->
     <section class="relative py-20 flex items-center justify-center overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]" />
+        <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]" ></div>
 
         <!-- Decorative elements -->
-        <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4952a]/10 rounded-full blur-[100px]" />
-        <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]" />
+        <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4952a]/10 rounded-full blur-[100px]"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]"></div>
 
         <!-- Floating particles -->
         <div class="absolute inset-0 overflow-hidden">
@@ -41,7 +41,7 @@
         <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
             <!-- Joanna's Image -->
             <div class="relative mb-12 inline-block">
-                <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" />
+                <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" ></div>
                 <img src="https://picsum.photos/400/400?random=1"
                      alt="Joanna Horton McPherson - Professional headshot showing confidence and warmth"
                      class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover relative z-10 border-4 border-[#d4952a]/30 shadow-2xl" />
@@ -51,7 +51,6 @@
             </div>
 
             <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse" />
                 About Joanna
             </span>
 
@@ -74,7 +73,7 @@
 
     <!-- Her Story -->
     <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]" />
+        <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]" ></div>
 
         <div class="max-w-7xl mx-auto px-6 relative z-10">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -109,7 +108,7 @@
                         <img src="https://picsum.photos/600/700?random=2"
                              alt="Joanna in action - Photo of Joanna speaking to a room or working one-on-one with a client"
                              class="w-full h-[600px] object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/70 to-transparent" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/70 to-transparent" ></div>
 
                         <!-- Quote overlay -->
                         <div class="absolute bottom-0 left-0 right-0 p-8">
@@ -153,7 +152,7 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Credential 1 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -172,7 +171,7 @@
 
                 <!-- Credential 2 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -190,7 +189,7 @@
 
                 <!-- Credential 3 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -211,7 +210,7 @@
 
                 <!-- Credential 4 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -232,7 +231,7 @@
 
                 <!-- Credential 5 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -249,7 +248,7 @@
 
                 <!-- Credential 6 -->
                 <div class="group relative bg-[#faf8f5]/5 backdrop-blur-sm border border-[#d4952a]/10 rounded-2xl p-8 hover:border-[#d4952a]/30 transition-all hover:-translate-y-2">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" />
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-[#d4952a]/10 rounded-full blur-[40px]" ></div>
                     <div class="relative z-10">
                         <div class="w-16 h-16 bg-[#d4952a]/10 rounded-xl flex items-center justify-center mb-6">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[#d4952a]">
@@ -271,7 +270,7 @@
 
     <!-- Philosophy -->
     <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#232360]/10 rounded-full blur-[120px]" />
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#232360]/10 rounded-full blur-[120px]" ></div>
 
         <div class="max-w-6xl mx-auto px-6 relative z-10">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -281,7 +280,7 @@
                         <img src="https://picsum.photos/600/600?random=3"
                              alt="Joanna's Philosophy - Warm, thoughtful portrait showing depth and wisdom"
                              class="w-full h-[500px] object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/60 to-transparent" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/60 to-transparent" ></div>
 
                         <div class="absolute bottom-8 left-8 right-8">
                             <div class="bg-[#faf8f5]/95 backdrop-blur-sm p-6 rounded-xl">
@@ -333,7 +332,7 @@
         <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
             <div class="mb-12">
                 <div class="relative inline-block">
-                    <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" />
+                    <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" ></div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icononly_transparent_nobuffer.png"
                          alt="Logo"
                          class="w-32 h-32 object-contain relative z-10" />

@@ -68,11 +68,11 @@ $phases = array(
 <div class="overflow-x-hidden">
     <!-- Hero -->
     <section class="relative py-20 flex items-center justify-center overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]" />
+        <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]" ></div>
 
         <!-- Decorative elements -->
-        <div class="absolute top-20 right-10 w-96 h-96 bg-[#d4952a]/10 rounded-full blur-[120px]" />
-        <div class="absolute bottom-20 left-10 w-72 h-72 bg-[#232360]/50 rounded-full blur-[100px]" />
+        <div class="absolute top-20 right-10 w-96 h-96 bg-[#d4952a]/10 rounded-full blur-[120px]" ></div>
+        <div class="absolute bottom-20 left-10 w-72 h-72 bg-[#232360]/50 rounded-full blur-[100px]" ></div>
 
         <!-- Floating particles -->
         <div class="absolute inset-0 overflow-hidden">
@@ -86,14 +86,13 @@ $phases = array(
         <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
             <!-- Journey Image -->
             <div class="relative mb-12 inline-block">
-                <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" />
+                <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" ></div>
                 <img src="https://picsum.photos/500/300?random=4"
                      alt="Journey visualization - Path winding through mountains or a road forward"
                      class="w-64 h-40 md:w-80 md:h-48 rounded-2xl object-cover relative z-10 shadow-2xl" />
             </div>
 
             <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse" />
                 The Process
             </span>
 
@@ -113,7 +112,7 @@ $phases = array(
 
     <!-- The 5 Phases -->
     <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-        <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]" />
+        <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]" ></div>
 
         <div class="max-w-7xl mx-auto px-6 relative z-10">
             <div class="text-center mb-20">
@@ -178,7 +177,7 @@ $phases = array(
                         <img src="https://picsum.photos/600/500?random=10"
                              alt="Client transformation - Photo showing authentic connection and breakthrough moment"
                              class="w-full h-[400px] object-cover" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/80 to-transparent" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/80 to-transparent" ></div>
 
                         <div class="absolute bottom-0 left-0 right-0 p-8">
                             <div class="bg-[#faf8f5] p-6 rounded-xl backdrop-blur-sm">
@@ -198,13 +197,13 @@ $phases = array(
 
     <!-- Journey CTA -->
     <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-        <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#232360]/10 rounded-full blur-[120px]" />
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#232360]/10 rounded-full blur-[120px]" ></div>
 
         <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
             <div class="mb-12">
                 <!-- Journey Complete Image -->
                 <div class="relative inline-block">
-                    <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" />
+                    <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full" ></div>
                     <img src="https://picsum.photos/400/250?random=11"
                          alt="Begin your journey - Beautiful sunrise or open path forward"
                          class="w-64 h-40 rounded-2xl object-cover relative z-10 shadow-2xl" />
