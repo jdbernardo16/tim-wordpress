@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Resource Card Template Part
  * 
@@ -21,7 +22,7 @@ $category = !empty($categories) ? $categories[0] : null;
     <?php if (has_post_thumbnail()) : ?>
         <div class="relative aspect-[16/10] overflow-hidden">
             <?php the_post_thumbnail('medium', ['class' => 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-105']); ?>
-            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/80 to-transparent" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/80 to-transparent"></div>
             <?php if ($category) : ?>
                 <div class="absolute top-4 left-4">
                     <span class="inline-block px-3 py-1 bg-[#d4952a] text-[#1a1a4e] text-xs font-semibold rounded-full">
