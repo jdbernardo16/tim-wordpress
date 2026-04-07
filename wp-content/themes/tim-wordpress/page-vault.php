@@ -2,34 +2,10 @@
 
 /**
  * Template Name: Vault Page
- * Description: The Vault - exclusive digital library page template
+ * Description: The Vault - complimentary monthly safe space for women leaders
  *
  * @package tim-wordpress
  */
-
-// Define vault sections
-$sections = array(
-    array(
-        'title' => 'Frameworks',
-        'description' => 'Proprietary models and frameworks developed through years of working with executives and thought leaders.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" /></svg>'
-    ),
-    array(
-        'title' => 'Training Library',
-        'description' => 'Video trainings and workshops covering key topics in authentic communication and leadership.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7" /><rect x="1" y="5" width="15" height="14" rx="2" ry="2" /></svg>'
-    ),
-    array(
-        'title' => 'Scripts & Templates',
-        'description' => 'Ready-to-use scripts, email templates, and frameworks for common speaking and communication scenarios.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" /><polyline points="10 9 9 9 8 9" /></svg>'
-    ),
-    array(
-        'title' => 'Community Resources',
-        'description' => 'Exclusive resources from our community of leaders, including guest workshops and member contributions.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>'
-    ),
-);
 
 ?>
 <!DOCTYPE html>
@@ -49,7 +25,7 @@ $sections = array(
 
     <div class="overflow-x-hidden">
         <!-- Hero Section -->
-        <section class="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
+        <section class="relative py-20 md:py-32 flex items-center justify-center overflow-hidden min-h-[80vh]">
             <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
 
             <!-- Decorative elements -->
@@ -66,85 +42,210 @@ $sections = array(
             </div>
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse" />
-                    The Vault
+                <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                    Complimentary Experience
                 </span>
 
-                <h1 class="font-serif text-4xl md:text-6xl text-[#faf8f5] mb-8 leading-tight">
-                    Your Exclusive Resource Library
+                <h1 class="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight text-[#faf8f5] mb-6">
+                    Enter The Vault
                 </h1>
 
-                <div class="max-w-3xl mx-auto">
-                    <p class="text-[#faf8f5]/80 text-lg md:text-xl leading-relaxed mb-6">
-                        The Vault is an exclusive digital library available to private clients and Mastermind members. It's a curated collection of frameworks, tools, trainings, and resources designed to accelerate your growth as a communicator and leader.
-                    </p>
-                    <p class="text-[#faf8f5]/80 text-lg md:text-xl leading-relaxed">
-                        This is not a generic course library. Everything in The Vault has been developed through years of work with executives, thought leaders, and changemakers — and it's updated regularly with new content.
-                    </p>
+                <p class="text-lg md:text-xl text-[#faf8f5]/80 font-light leading-relaxed max-w-2xl mx-auto mb-10">
+                    A free monthly safe space for women leaders to tell their story, connect with peers, and unlock your authentic voice.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="<?php echo home_url('/vault-registration/'); ?>"
+                        class="inline-flex items-center gap-2 bg-[#d4952a] hover:bg-[#b87d1f] text-[#1a1a4e] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
+                        <span class="uppercase tracking-wider">
+                            Register Now
+                        </span>
+                    </a>
+                    <span class="text-[#faf8f5]/60 text-sm">
+                        First Fridays at 12 PM MST
+                    </span>
+                </div>
+
+                <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2">
+                    <div class="animate-bounce">
+                        <svg class="w-6 h-6 text-[#d4952a] opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Vault Sections -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
-
-            <div class="max-w-6xl mx-auto px-6 relative z-10">
-                <div class="text-center mb-16">
-                    <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
-                        What's Inside
+        <!-- About Section -->
+        <section class="py-20 md:py-28 bg-[#1a1a4e]">
+            <div class="max-w-6xl mx-auto px-6 md:px-12">
+                <div class="max-w-3xl mx-auto text-center">
+                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                        What is The Vault?
                     </span>
-                    <h2 class="font-serif text-3xl md:text-5xl text-[#1a1a4e] mb-6">
-                        Everything You Need to Lead with Authenticity
+                    <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-8 leading-tight">
+                        A Safe Space for Your Voice
                     </h2>
-                    <p class="text-[#1a1a4e]/70 text-lg max-w-2xl mx-auto">
-                        Explore the four pillars of The Vault — each one designed to support different aspects of your development.
+                    <p class="text-[#faf8f5]/80 font-light leading-relaxed text-lg mb-8">
+                        The Vault is Joanna's gift to women leaders seeking a supportive community to share their story, practice their message, and connect with like-minded peers. This complimentary monthly gathering provides a judgment-free environment where you can speak authentically and receive gentle guidance.
                     </p>
                 </div>
 
-                <!-- Section Cards -->
-                <div class="grid md:grid-cols-2 gap-8">
-                    <?php foreach ($sections as $section): ?>
-                        <?php
-                        set_query_var('section_title', $section['title']);
-                        set_query_var('section_description', $section['description']);
-                        set_query_var('section_icon', $section['icon']);
-                        get_template_part('template-parts/vault-item');
-                        ?>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                    <?php
+                    $features = [
+                        [
+                            'title' => 'Story Sharing',
+                            'description' => 'Tell your story in a safe, supportive environment without judgment or pressure.',
+                        ],
+                        [
+                            'title' => 'Peer Connection',
+                            'description' => 'Connect with other women leaders facing similar challenges and triumphs.',
+                        ],
+                        [
+                            'title' => 'Expert Guidance',
+                            'description' => 'Receive gentle feedback and guidance from Joanna in an intimate setting.',
+                        ],
+                    ];
+                    foreach ($features as $index => $feature): ?>
+                        <div class="p-8 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl text-center">
+                            <h3 class="font-serif text-xl text-[#faf8f5] mb-4">
+                                <?php echo esc_html($feature['title']); ?>
+                            </h3>
+                            <p class="text-[#faf8f5]/70 font-light leading-relaxed">
+                                <?php echo esc_html($feature['description']); ?>
+                            </p>
+                        </div>
                     <?php endforeach; ?>
                 </div>
             </div>
         </section>
 
-        <!-- Access Section -->
-        <section class="py-24 md:py-32 bg-[#1a1a4e] text-[#faf8f5] relative overflow-hidden">
-            <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#d4952a]/10 rounded-full blur-[120px]"></div>
+        <!-- Benefits Section -->
+        <section class="py-20 md:py-28 bg-[#232360]">
+            <div class="max-w-6xl mx-auto px-6 md:px-12">
+                <div class="text-center mb-16">
+                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                        Why Join?
+                    </span>
+                    <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6 leading-tight">
+                        What You'll Experience
+                    </h2>
+                </div>
 
-            <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
-                    Exclusive Access
-                </span>
-                <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
-                    Get Access to The Vault
-                </h2>
-                <p class="text-[#faf8f5]/70 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-                    The Vault is available exclusively to private clients and Mastermind members. When you work with Joanna, you get lifetime access to this growing library of resources — including all future updates and additions.
-                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <?php
+                    $benefits = [
+                        [
+                            'icon' => 'shield',
+                            'title' => 'Safe Environment',
+                            'description' => 'A judgment-free space where vulnerability is celebrated and confidentiality is honored.',
+                        ],
+                        [
+                            'icon' => 'message-circle',
+                            'title' => 'Story Practice',
+                            'description' => 'Practice your message and storytelling in front of a supportive audience.',
+                        ],
+                        [
+                            'icon' => 'users',
+                            'title' => 'Community Connection',
+                            'description' => 'Build relationships with other women leaders who understand your journey.',
+                        ],
+                        [
+                            'icon' => 'heart',
+                            'title' => 'Authentic Expression',
+                            'description' => 'Discover and express your authentic voice without fear or pretense.',
+                        ],
+                        [
+                            'icon' => 'clock',
+                            'title' => 'Monthly Gathering',
+                            'description' => 'Regular opportunities to connect, practice, and grow with your community.',
+                        ],
+                        [
+                            'icon' => 'calendar',
+                            'title' => 'Flexible Commitment',
+                            'description' => 'Attend as your schedule allows—no long-term commitment required.',
+                        ],
+                    ];
+                    foreach ($benefits as $benefit): ?>
+                        <div class="p-6 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-xl hover:border-[#d4952a]/30 transition-colors duration-300">
+                            <div class="w-12 h-12 bg-[#d4952a]/20 rounded-full flex items-center justify-center mb-4">
+                                <?php if ($benefit['icon'] === 'shield'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                    </svg>
+                                <?php elseif ($benefit['icon'] === 'message-circle'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                                    </svg>
+                                <?php elseif ($benefit['icon'] === 'users'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                        <circle cx="9" cy="7" r="4" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    </svg>
+                                <?php elseif ($benefit['icon'] === 'heart'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z" />
+                                    </svg>
+                                <?php elseif ($benefit['icon'] === 'clock'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12 6 12 12 16 14" />
+                                    </svg>
+                                <?php elseif ($benefit['icon'] === 'calendar'): ?>
+                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                        <line x1="16" y1="2" x2="16" y2="6" />
+                                        <line x1="8" y1="2" x2="8" y2="6" />
+                                        <line x1="3" y1="10" x2="21" y2="10" />
+                                    </svg>
+                                <?php endif; ?>
+                            </div>
+                            <h3 class="font-serif text-xl text-[#faf8f5] mb-3">
+                                <?php echo esc_html($benefit['title']); ?>
+                            </h3>
+                            <p class="text-[#faf8f5]/70 font-light leading-relaxed text-sm">
+                                <?php echo esc_html($benefit['description']); ?>
+                            </p>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </section>
 
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="<?php echo home_url('/apply/'); ?>"
-                        class="inline-flex items-center justify-center gap-3 bg-[#d4952a] text-white text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#b37a1f] transition-colors duration-300">
-                        Apply to Work With Joanna
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M5 12h14" />
-                            <path d="m12 5 7 7-7 7" />
-                        </svg>
-                    </a>
-                    <a href="<?php echo home_url('/community/'); ?>"
-                        class="inline-flex items-center justify-center gap-3 border-2 border-[#faf8f5]/30 text-[#faf8f5] text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#faf8f5]/10 transition-colors duration-300">
-                        Explore Community
-                    </a>
+        <!-- CTA Section -->
+        <section class="py-20 md:py-28 bg-[#1a1a4e]">
+            <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
+                <div class="p-12 md:p-16 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-3xl">
+                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                        Complimentary
+                    </span>
+                    <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6 leading-tight">
+                        Ready to Enter The Vault?
+                    </h2>
+                    <p class="text-[#faf8f5]/80 font-light leading-relaxed text-lg mb-8">
+                        Join our next First Friday gathering and take the first step toward unlocking your authentic voice in a supportive community of women leaders.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <a href="<?php echo home_url('/vault-registration/'); ?>"
+                            class="inline-flex items-center gap-2 bg-[#d4952a] hover:bg-[#b87d1f] text-[#1a1a4e] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <span class="uppercase tracking-wider">
+                                Register Now
+                            </span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                        <a href="<?php echo home_url('/'); ?>"
+                            class="text-[#faf8f5]/70 hover:text-[#d4952a] transition-colors text-sm font-medium tracking-wide uppercase">
+                            Explore Other Offerings
+                        </a>
+                    </div>
+                    <p class="mt-8 text-[#faf8f5]/50 text-sm">
+                        First Fridays at 12 PM MST • Free for all women leaders
+                    </p>
                 </div>
             </div>
         </section>
