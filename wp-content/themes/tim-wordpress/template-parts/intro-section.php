@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Intro Section Template Part
  * Based on IntroSection.vue
@@ -10,22 +11,22 @@ $transformative_image = get_template_directory_uri() . '/assets/images/carousel/
 $main_image = get_template_directory_uri() . '/assets/images/carousel/img5.webp';
 ?>
 
-<section class="py-24 md:py-32 bg-[#1a1a4e] relative overflow-hidden">
-    <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
-    <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]"></div>
+<section class="py-24 md:py-32 bg-[#0f203d] relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#0f203d]/50 rounded-full blur-[120px]"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div class="text-center lg:text-left">
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/20 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse"></span>
+                <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/20 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                    <span class="w-2 h-2 bg-[#d4b478] rounded-full animate-pulse"></span>
                     The Work
                 </span>
 
                 <h2 class="font-serif text-4xl md:text-5xl text-[#faf8f5] mb-8 relative">
-                    <span class="absolute -top-6 left-0 w-16 h-px bg-[#d4952a]/40"></span>
+                    <span class="absolute -top-6 left-0 w-16 h-px bg-[#d4b478]/40"></span>
                     You Don't Need a Better Script. You Need Your True Story.
-                    <span class="absolute -bottom-6 left-0 w-16 h-px bg-[#d4952a]/40"></span>
+                    <span class="absolute -bottom-6 left-0 w-16 h-px bg-[#d4b478]/40"></span>
                 </h2>
 
                 <p class="text-[#faf8f5]/80 text-lg md:text-xl leading-relaxed mb-6">
@@ -38,25 +39,25 @@ $main_image = get_template_directory_uri() . '/assets/images/carousel/img5.webp'
 
                 <div class="flex items-center gap-6 flex-wrap">
                     <div class="flex items-center gap-3">
-                        <img src="<?php echo esc_url($personal_image); ?>" alt="Personal" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4952a]/30" />
+                        <img src="<?php echo esc_url($personal_image); ?>" alt="Personal" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4b478]/30" />
                         <div class="text-left">
-                            <p class="text-[#d4952a] font-semibold">Personal</p>
+                            <p class="text-[#d4b478] font-semibold">Personal</p>
                             <p class="text-[#faf8f5]/60 text-sm">1-on-1 Focus</p>
                         </div>
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <img src="<?php echo esc_url($proven_image); ?>" alt="Proven" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4952a]/30" />
+                        <img src="<?php echo esc_url($proven_image); ?>" alt="Proven" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4b478]/30" />
                         <div class="text-left">
-                            <p class="text-[#d4952a] font-semibold">Proven</p>
+                            <p class="text-[#d4b478] font-semibold">Proven</p>
                             <p class="text-[#faf8f5]/60 text-sm">Tested Method</p>
                         </div>
                     </div>
 
                     <div class="flex items-center gap-3">
-                        <img src="<?php echo esc_url($transformative_image); ?>" alt="Transformative" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4952a]/30" />
+                        <img src="<?php echo esc_url($transformative_image); ?>" alt="Transformative" class="w-14 h-14 rounded-full object-cover border-2 border-[#d4b478]/30" />
                         <div class="text-left">
-                            <p class="text-[#d4952a] font-semibold">Transformative</p>
+                            <p class="text-[#d4b478] font-semibold">Transformative</p>
                             <p class="text-[#faf8f5]/60 text-sm">Lasting Impact</p>
                         </div>
                     </div>
@@ -66,10 +67,10 @@ $main_image = get_template_directory_uri() . '/assets/images/carousel/img5.webp'
             <div class="relative">
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                     <img src="<?php echo esc_url($main_image); ?>" alt="Joanna working with client" class="w-full h-[500px] object-cover" />
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/50 to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0f203d]/50 to-transparent"></div>
                 </div>
-                
-                <div class="absolute -bottom-6 -right-6 bg-[#d4952a] text-[#1a1a4e] p-6 rounded-xl shadow-2xl">
+
+                <div class="absolute -bottom-6 -right-6 bg-[#d4b478] text-[#0f203d] p-6 rounded-xl shadow-2xl">
                     <p class="font-serif text-3xl font-bold">100+</p>
                     <p class="text-sm font-medium">Leaders Transformed</p>
                 </div>

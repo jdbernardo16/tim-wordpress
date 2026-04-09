@@ -70,16 +70,16 @@ $phases = array(
     <div class="overflow-x-hidden">
         <!-- Hero -->
         <section class="relative py-20 flex items-center justify-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
 
             <!-- Decorative elements -->
-            <div class="absolute top-20 right-10 w-96 h-96 bg-[#d4952a]/10 rounded-full blur-[120px]"></div>
-            <div class="absolute bottom-20 left-10 w-72 h-72 bg-[#232360]/50 rounded-full blur-[100px]"></div>
+            <div class="absolute top-20 right-10 w-96 h-96 bg-[#d4b478]/10 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-20 left-10 w-72 h-72 bg-[#0f203d]/50 rounded-full blur-[100px]"></div>
 
             <!-- Floating particles -->
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 15; $i++): ?>
-                    <div class="absolute w-2 h-2 bg-[#d4952a]/30 rounded-full animate-float"
+                    <div class="absolute w-2 h-2 bg-[#d4b478]/30 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 6 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
@@ -88,20 +88,20 @@ $phases = array(
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
                 <!-- Journey Image -->
                 <div class="relative mb-12 inline-block">
-                    <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full"></div>
+                    <div class="absolute inset-0 bg-[#d4b478] blur-[60px] opacity-20 rounded-full"></div>
                     <img src="https://picsum.photos/500/300?random=4"
                         alt="Journey visualization - Path winding through mountains or a road forward"
                         class="w-64 h-40 md:w-80 md:h-48 rounded-2xl object-cover relative z-10 shadow-2xl" />
                 </div>
 
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
                     The Process
                 </span>
 
                 <h1 class="font-serif text-4xl md:text-6xl text-[#faf8f5] mb-8 leading-tight">
                     A Process Rooted in Truth.
                     <br />
-                    <span class="text-[#d4952a]">Built Around You.</span>
+                    <span class="text-[#d4b478]">Built Around You.</span>
                 </h1>
 
                 <div class="max-w-3xl mx-auto">
@@ -113,18 +113,18 @@ $phases = array(
         </section>
 
         <!-- The 5 Phases -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
 
             <div class="max-w-7xl mx-auto px-6 relative z-10">
                 <div class="text-center mb-20">
-                    <div class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                    <div class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
                         The 5-Phase Journey
                     </div>
-                    <h2 class="font-serif text-4xl md:text-6xl text-[#1a1a4e]">
+                    <h2 class="font-serif text-4xl md:text-6xl text-[#0f203d]">
                         From Discovering Your Story
                         <br />
-                        <span class="text-[#d4952a]">to Leading With It.</span>
+                        <span class="text-[#d4b478]">to Leading With It.</span>
                     </h2>
                 </div>
 
@@ -144,10 +144,10 @@ $phases = array(
         </section>
 
         <!-- Process Callout -->
-        <section class="py-24 md:py-32 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e] relative overflow-hidden">
+        <section class="py-24 md:py-32 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d] relative overflow-hidden">
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 20; $i++): ?>
-                    <div class="absolute w-1 h-1 bg-[#d4952a]/20 rounded-full animate-float"
+                    <div class="absolute w-1 h-1 bg-[#d4b478]/20 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 8 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
@@ -156,14 +156,14 @@ $phases = array(
             <div class="max-w-6xl mx-auto px-6 relative z-10">
                 <div class="grid lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <div class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                        <div class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
                             Not Coaching
                         </div>
 
                         <h2 class="font-serif text-4xl md:text-5xl text-[#faf8f5] mb-8 leading-tight">
                             This Is Not Coaching.
                             <br />
-                            <span class="text-[#d4952a]">
+                            <span class="text-[#d4b478]">
                                 It's Transformation.
                             </span>
                         </h2>
@@ -179,14 +179,14 @@ $phases = array(
                             <img src="https://picsum.photos/600/500?random=10"
                                 alt="Client transformation - Photo showing authentic connection and breakthrough moment"
                                 class="w-full h-[400px] object-cover" />
-                            <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a4e]/80 to-transparent"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0f203d]/80 to-transparent"></div>
 
                             <div class="absolute bottom-0 left-0 right-0 p-8">
                                 <div class="bg-[#faf8f5] p-6 rounded-xl backdrop-blur-sm">
-                                    <blockquote class="font-serif text-[#1a1a4e] text-lg italic">
+                                    <blockquote class="font-serif text-[#0f203d] text-lg italic">
                                         "At first, I honestly wanted to quit. I was expecting a traditional approach. But Joanna focused on me — on where I come from, who I am. By the end, I didn't just have one story. I had several. And the confidence to deliver them in a way that captivates an audience, just like a scene in a movie."
                                     </blockquote>
-                                    <p class="text-[#d4952a] font-medium mt-4">
+                                    <p class="text-[#d4b478] font-medium mt-4">
                                         — Private Training Client, CEO
                                     </p>
                                 </div>
@@ -198,33 +198,33 @@ $phases = array(
         </section>
 
         <!-- Journey CTA -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#232360]/10 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-[#0f203d]/10 rounded-full blur-[120px]"></div>
 
             <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
                 <div class="mb-12">
                     <!-- Journey Complete Image -->
                     <div class="relative inline-block">
-                        <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full"></div>
+                        <div class="absolute inset-0 bg-[#d4b478] blur-[60px] opacity-20 rounded-full"></div>
                         <img src="https://picsum.photos/400/250?random=11"
                             alt="Begin your journey - Beautiful sunrise or open path forward"
                             class="w-64 h-40 rounded-2xl object-cover relative z-10 shadow-2xl" />
                     </div>
                 </div>
 
-                <div class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                <div class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
                     Begin Now
                 </div>
 
-                <h2 class="font-serif text-4xl md:text-6xl text-[#1a1a4e] mb-6">
+                <h2 class="font-serif text-4xl md:text-6xl text-[#0f203d] mb-6">
                     Where Would You Like to Begin?
                 </h2>
-                <p class="text-[#1a1a4e]/80 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
+                <p class="text-[#0f203d]/80 text-lg md:text-xl mb-12 max-w-2xl mx-auto">
                     Every journey through True Influence Method™️ starts with a conversation. Let us know where you are and where you want to go — and Joanna's team will guide you to the right path.
                 </p>
 
                 <a href="<?php echo home_url('/apply/'); ?>"
-                    class="inline-flex items-center gap-3 px-10 py-5 bg-[#d4952a] hover:bg-[#e8a838] text-[#1a1a4e] font-semibold rounded-lg transition-all hover:shadow-xl hover:shadow-[#d4952a]/20 text-lg group">
+                    class="inline-flex items-center gap-3 px-10 py-5 bg-[#d4b478] hover:bg-[#e8a838] text-[#0f203d] font-semibold rounded-lg transition-all hover:shadow-xl hover:shadow-[#d4b478]/20 text-lg group">
                     Start Conversation
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform">
                         <line x1="5" y1="12" x2="19" y2="12"></line>

@@ -17,14 +17,14 @@
             if (window.scrollY > 50) {
                 header.classList.remove("bg-transparent", "py-6");
                 header.classList.add(
-                    "bg-[#1a1a4e]/95",
+                    "bg-[#0f203d]/95",
                     "backdrop-blur-sm",
                     "py-4",
                     "shadow-lg",
                 );
             } else {
                 header.classList.remove(
-                    "bg-[#1a1a4e]/95",
+                    "bg-[#0f203d]/95",
                     "backdrop-blur-sm",
                     "py-4",
                     "shadow-lg",
@@ -299,7 +299,7 @@
         for (let i = 0; i < particleCount; i++) {
             const particle = document.createElement("div");
             particle.className =
-                "absolute w-1 h-1 bg-[#d4952a]/20 rounded-full animate-float";
+                "absolute w-1 h-1 bg-[#d4b478]/20 rounded-full animate-float";
             particle.style.left = Math.random() * 100 + "%";
             particle.style.top = Math.random() * 100 + "%";
             particle.style.animationDelay = Math.random() * 5 + "s";

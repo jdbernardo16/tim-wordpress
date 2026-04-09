@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Paths Section Template Part
  * Based on PathsSection.vue
@@ -50,21 +51,21 @@ $paths = array(
 );
 ?>
 
-<section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#d4952a]/20 to-transparent"></div>
+<section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#d4b478]/20 to-transparent"></div>
 
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
-            <span class="inline-flex items-center gap-2 bg-[#1a1a4e]/5 border border-[#d4952a]/20 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                <span class="w-2 h-2 bg-[#d4952a] rounded-full"></span>
+            <span class="inline-flex items-center gap-2 bg-[#0f203d]/5 border border-[#d4b478]/20 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                <span class="w-2 h-2 bg-[#d4b478] rounded-full"></span>
                 Ways to Work Together
             </span>
-            
-            <h2 class="font-serif text-4xl md:text-5xl text-[#1a1a4e] mb-6">
+
+            <h2 class="font-serif text-4xl md:text-5xl text-[#0f203d] mb-6">
                 One Method. Three Paths.
             </h2>
-            
-            <p class="text-[#1a1a4e]/70 text-lg max-w-3xl mx-auto leading-relaxed">
+
+            <p class="text-[#0f203d]/70 text-lg max-w-3xl mx-auto leading-relaxed">
                 Whether you're a CEO ready for private mastery, a rising leader joining a powerful group, or an organization building a culture of courageous communication — there is a path for you.
             </p>
         </div>

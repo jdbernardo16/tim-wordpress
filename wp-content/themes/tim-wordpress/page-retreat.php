@@ -304,23 +304,23 @@ $retreatAwards = array(
 
 // Icon mapping to SVG (simplified versions)
 $iconMap = array(
-    'Target' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>',
-    'Users' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>',
-    'Play' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3" /></svg>',
-    'BookOpen' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /></svg>',
-    'Crown' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>',
-    'Mic' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" /><path d="M19 10v2a7 7 0 0 1-14 0v-2" /><line x1="12" y1="19" x2="12" y2="23" /><line x1="8" y1="23" x2="16" y2="23" /></svg>',
-    'TrendingUp' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" /><polyline points="17 6 23 6 23 12" /></svg>',
-    'Award' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></svg>',
-    'Home' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></svg>',
-    'Sparkles' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.937A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063A2 2 0 0 0 14.063 15.5l-1.582 6.135a.5.5 0 0 1-.962 0L9.937 15.5z" /></svg>',
-    'Calendar' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>',
-    'Clock' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>',
-    'CheckCircle2' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>',
-    'Trophy' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>',
-    'Zap' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>',
-    'ArrowRight' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>',
-    'ChevronDown' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>'
+    'Target' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg>',
+    'Users' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>',
+    'Play' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3" /></svg>',
+    'BookOpen' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" /></svg>',
+    'Crown' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>',
+    'Mic' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" /><path d="M19 10v2a7 7 0 0 1-14 0v-2" /><line x1="12" y1="19" x2="12" y2="23" /><line x1="8" y1="23" x2="16" y2="23" /></svg>',
+    'TrendingUp' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18" /><polyline points="17 6 23 6 23 12" /></svg>',
+    'Award' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7" /><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" /></svg>',
+    'Home' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></svg>',
+    'Sparkles' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.937A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .962 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063A2 2 0 0 0 14.063 15.5l-1.582 6.135a.5.5 0 0 1-.962 0L9.937 15.5z" /></svg>',
+    'Calendar' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>',
+    'Clock' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>',
+    'CheckCircle2' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>',
+    'Trophy' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>',
+    'Zap' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" /></svg>',
+    'ArrowRight' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>',
+    'ChevronDown' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>'
 );
 
 ?>
@@ -339,17 +339,17 @@ $iconMap = array(
 
     <?php get_header(); ?>
 
-    <div class="bg-[#1a1a4e] min-h-screen w-full overflow-x-hidden">
+    <div class="bg-[#0f203d] min-h-screen w-full overflow-x-hidden">
         <main>
             <!-- Hero Section -->
             <section class="relative min-h-[80vh] flex items-center">
                 <div class="absolute inset-0">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/carousel/img1.webp" alt="True Influence Retreat" class="w-full h-full object-cover opacity-30" />
-                    <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a4e]/70 via-[#1a1a4e]/50 to-[#1a1a4e]" />
+                    <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/70 via-[#0f203d]/50 to-[#0f203d]" />
                 </div>
                 <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-12 text-center">
                     <div class="mb-6">
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase">
                             Immersive Experience
                         </span>
                     </div>
@@ -368,10 +368,10 @@ $iconMap = array(
             </section>
 
             <!-- Overview Section -->
-            <section class="py-20 md:py-28 bg-[#1a1a4e]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Retreat Structure
                         </span>
                         <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -380,8 +380,8 @@ $iconMap = array(
                         <p class="text-lg text-[#faf8f5]/80 font-light max-w-3xl mx-auto mb-8">
                             This is a supportive working environment, not a passive experience.
                         </p>
-                        <div class="inline-block bg-[#d4952a]/10 border border-[#d4952a]/30 rounded-full px-6 py-3">
-                            <span class="text-[#d4952a] font-medium">
+                        <div class="inline-block bg-[#d4b478]/10 border border-[#d4b478]/30 rounded-full px-6 py-3">
+                            <span class="text-[#d4b478] font-medium">
                                 Everything leads to Stage Day
                             </span>
                         </div>
@@ -389,8 +389,8 @@ $iconMap = array(
 
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <?php foreach ($retreatFeatures as $index => $feature): ?>
-                            <div class="group bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl p-6 hover:border-[#d4952a]/50 hover:bg-[#d4952a]/5 transition-all duration-300">
-                                <div class="w-12 h-12 bg-[#d4952a]/20 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                            <div class="group bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl p-6 hover:border-[#d4b478]/50 hover:bg-[#d4b478]/5 transition-all duration-300">
+                                <div class="w-12 h-12 bg-[#d4b478]/20 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                                     <?php echo isset($iconMap[$feature['icon']]) ? $iconMap[$feature['icon']] : $iconMap['Target']; ?>
                                 </div>
                                 <h3 class="font-serif text-xl text-[#faf8f5] mb-2">
@@ -406,10 +406,10 @@ $iconMap = array(
             </section>
 
             <!-- Day Schedule Section -->
-            <section class="py-20 md:py-28 bg-[#232360]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             The Journey
                         </span>
                         <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -466,7 +466,7 @@ $iconMap = array(
 
                                                 <div class="grid grid-cols-1 gap-3">
                                                     <?php foreach ($session['activities'] as $activityIndex => $activity): ?>
-                                                        <div class="relative p-4 rounded-xl transition-all duration-300 <?php echo isset($activity['highlight']) && $activity['highlight'] ? 'bg-[#d4952a]/10 border-2 border-[#d4952a]/50' : 'bg-[#faf8f5]/5 border border-[#faf8f5]/10 hover:border-[#faf8f5]/30'; ?>">
+                                                        <div class="relative p-4 rounded-xl transition-all duration-300 <?php echo isset($activity['highlight']) && $activity['highlight'] ? 'bg-[#d4b478]/10 border-2 border-[#d4b478]/50' : 'bg-[#faf8f5]/5 border border-[#faf8f5]/10 hover:border-[#faf8f5]/30'; ?>">
                                                             <div class="flex items-start gap-3">
                                                                 <?php if (isset($activity['highlight']) && $activity['highlight']): ?>
                                                                     <?php echo $iconMap['Sparkles']; ?>
@@ -485,7 +485,7 @@ $iconMap = array(
                                                                         <p class="text-[#faf8f5]/70 font-light text-sm"><?php echo esc_html($activity['description']); ?></p>
                                                                     <?php endif; ?>
                                                                     <?php if (isset($activity['specialNote'])): ?>
-                                                                        <span class="inline-block mt-2 text-xs text-[#d4952a] font-medium tracking-wider uppercase"><?php echo esc_html($activity['specialNote']); ?></span>
+                                                                        <span class="inline-block mt-2 text-xs text-[#d4b478] font-medium tracking-wider uppercase"><?php echo esc_html($activity['specialNote']); ?></span>
                                                                     <?php endif; ?>
                                                                 </div>
                                                             </div>
@@ -503,10 +503,10 @@ $iconMap = array(
             </section>
 
             <!-- Experience Section -->
-            <section class="py-20 md:py-28 bg-[#232360]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             The Experience
                         </span>
                         <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -519,9 +519,9 @@ $iconMap = array(
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <?php foreach ($retreatHighlights as $index => $highlight): ?>
-                            <div class="group bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl overflow-hidden hover:border-[#d4952a]/50 hover:bg-[#d4952a]/5 transition-all duration-300">
+                            <div class="group bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl overflow-hidden hover:border-[#d4b478]/50 hover:bg-[#d4b478]/5 transition-all duration-300">
                                 <div class="relative p-8">
-                                    <div class="w-16 h-16 bg-[#d4952a]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                    <div class="w-16 h-16 bg-[#d4b478]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                         <?php echo isset($iconMap[$highlight['icon']]) ? $iconMap[$highlight['icon']] : $iconMap['Zap']; ?>
                                     </div>
                                     <h3 class="font-serif text-2xl text-[#faf8f5] mb-4">
@@ -536,7 +536,7 @@ $iconMap = array(
                     </div>
 
                     <div class="mt-16 text-center">
-                        <div class="bg-[#1a1a4e]/50 border border-[#d4952a]/30 rounded-2xl p-8 md:p-12">
+                        <div class="bg-[#0f203d]/50 border border-[#d4b478]/30 rounded-2xl p-8 md:p-12">
                             <div class="flex items-center justify-center gap-4 mb-6">
                                 <?php echo $iconMap['Zap']; ?>
                                 <h3 class="font-serif text-2xl md:text-3xl text-[#faf8f5]">
@@ -552,10 +552,10 @@ $iconMap = array(
             </section>
 
             <!-- Stages Section -->
-            <section class="py-20 md:py-28 bg-[#1a1a4e]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Stage Day
                         </span>
                         <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -569,7 +569,7 @@ $iconMap = array(
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
                         <div class="bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl p-8">
                             <div class="flex items-center gap-3 mb-6">
-                                <div class="w-12 h-12 bg-[#d4952a]/20 rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#d4b478]/20 rounded-full flex items-center justify-center">
                                     <?php echo $iconMap['Mic']; ?>
                                 </div>
                                 <h3 class="font-serif text-2xl text-[#faf8f5]">
@@ -595,7 +595,7 @@ $iconMap = array(
 
                         <div class="bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl p-8">
                             <div class="flex items-center gap-3 mb-6">
-                                <div class="w-12 h-12 bg-[#d4952a]/20 rounded-full flex items-center justify-center">
+                                <div class="w-12 h-12 bg-[#d4b478]/20 rounded-full flex items-center justify-center">
                                     <?php echo $iconMap['TrendingUp']; ?>
                                 </div>
                                 <h3 class="font-serif text-2xl text-[#faf8f5]">
@@ -613,7 +613,7 @@ $iconMap = array(
                                         ['icon' => 'Users', 'label' => 'Next Level']
                                     ] as $item
                                 ): ?>
-                                    <div class="p-4 bg-[#d4952a]/10 rounded-xl">
+                                    <div class="p-4 bg-[#d4b478]/10 rounded-xl">
                                         <?php echo $iconMap[$item['icon']]; ?>
                                         <p class="text-xs text-[#faf8f5]/80 font-medium mt-2"><?php echo esc_html($item['label']); ?></p>
                                     </div>
@@ -624,15 +624,15 @@ $iconMap = array(
 
                     <div>
                         <div class="text-center mb-10">
-                            <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase">
+                            <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase">
                                 Awards & Recognition
                             </span>
                         </div>
 
                         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                             <?php foreach ($retreatAwards as $index => $award): ?>
-                                <div class="bg-[#232360]/50 border border-[#faf8f5]/10 rounded-2xl p-6 text-center hover:border-[#d4952a]/50 transition-all duration-300">
-                                    <div class="w-16 h-16 bg-[#d4952a]/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <div class="bg-[#0f203d]/50 border border-[#faf8f5]/10 rounded-2xl p-6 text-center hover:border-[#d4b478]/50 transition-all duration-300">
+                                    <div class="w-16 h-16 bg-[#d4b478]/20 rounded-full flex items-center justify-center mx-auto mb-4">
                                         <?php echo $iconMap['Award']; ?>
                                     </div>
                                     <h4 class="font-serif text-xl text-[#faf8f5] mb-3">
@@ -649,13 +649,13 @@ $iconMap = array(
             </section>
 
             <!-- CTA Section -->
-            <section class="py-20 md:py-28 bg-[#1a1a4e]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
                     <div>
-                        <div class="w-16 h-16 bg-[#d4952a]/20 rounded-full flex items-center justify-center mx-auto mb-8">
+                        <div class="w-16 h-16 bg-[#d4b478]/20 rounded-full flex items-center justify-center mx-auto mb-8">
                             <?php echo $iconMap['Award']; ?>
                         </div>
-                        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Your Next Step
                         </span>
                         <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -666,7 +666,7 @@ $iconMap = array(
                         </p>
 
                         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                            <a href="<?php echo home_url('/#contact'); ?>" class="inline-flex items-center gap-2 bg-[#d4952a] hover:bg-[#b87d1f] text-[#1a1a4e] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer">
+                            <a href="<?php echo home_url('/#contact'); ?>" class="inline-flex items-center gap-2 bg-[#d4b478] hover:bg-[#b87d1f] text-[#0f203d] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer">
                                 <span class="uppercase tracking-wider">Apply Now</span>
                                 <?php echo $iconMap['ArrowRight']; ?>
                             </a>

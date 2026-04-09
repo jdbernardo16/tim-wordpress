@@ -62,24 +62,24 @@ $faqs = array(
     <div class="overflow-x-hidden">
         <!-- Hero -->
         <section class="relative py-20 flex items-center justify-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
 
             <!-- Decorative elements -->
-            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4952a]/10 rounded-full blur-[100px]"></div>
-            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]"></div>
+            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4b478]/10 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#0f203d]/50 rounded-full blur-[120px]"></div>
 
             <!-- Floating particles -->
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 15; $i++): ?>
-                    <div class="absolute w-2 h-2 bg-[#d4952a]/30 rounded-full animate-float"
+                    <div class="absolute w-2 h-2 bg-[#d4b478]/30 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 6 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
             </div>
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse" />
+                <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                    <span class="w-2 h-2 bg-[#d4b478] rounded-full animate-pulse" />
                     Frequently Asked Questions
                 </span>
 
@@ -96,18 +96,18 @@ $faqs = array(
         </section>
 
         <!-- FAQ Questions & Answers -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
 
             <div class="max-w-4xl mx-auto px-6 relative z-10">
                 <div class="space-y-6">
                     <?php foreach ($faqs as $index => $faq): ?>
-                        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-[#d4952a]/10">
+                        <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-[#d4b478]/10">
                             <button
                                 class="faq-toggle w-full px-8 py-6 flex items-center justify-between text-left hover:bg-[#faf8f5]/50 transition-colors"
                                 data-faq-index="<?php echo esc_attr($index); ?>"
                                 aria-expanded="false">
-                                <span class="font-serif text-xl md:text-2xl text-[#1a1a4e] pr-4">
+                                <span class="font-serif text-xl md:text-2xl text-[#0f203d] pr-4">
                                     <?php echo esc_html($faq['question']); ?>
                                 </span>
                                 <svg
@@ -120,12 +120,12 @@ $faqs = array(
                                     stroke-width="2"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    class="text-[#d4952a] flex-shrink-0 transition-transform duration-300 faq-icon">
+                                    class="text-[#d4b478] flex-shrink-0 transition-transform duration-300 faq-icon">
                                     <path d="m6 9 6 6 6-6" />
                                 </svg>
                             </button>
                             <div class="faq-content px-8 pb-6 hidden" id="faq-content-<?php echo esc_attr($index); ?>">
-                                <p class="text-[#1a1a4e]/70 text-lg leading-relaxed">
+                                <p class="text-[#0f203d]/70 text-lg leading-relaxed">
                                     <?php echo esc_html($faq['answer']); ?>
                                 </p>
                             </div>
@@ -136,10 +136,10 @@ $faqs = array(
         </section>
 
         <!-- FAQ CTA -->
-        <section class="py-24 md:py-32 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e] relative overflow-hidden">
+        <section class="py-24 md:py-32 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d] relative overflow-hidden">
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 10; $i++): ?>
-                    <div class="absolute w-2 h-2 bg-[#d4952a]/20 rounded-full animate-float"
+                    <div class="absolute w-2 h-2 bg-[#d4b478]/20 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 7 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
@@ -148,7 +148,7 @@ $faqs = array(
             <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
                 <div class="mb-12">
                     <div class="relative inline-block">
-                        <div class="absolute inset-0 bg-[#d4952a] blur-[60px] opacity-20 rounded-full"></div>
+                        <div class="absolute inset-0 bg-[#d4b478] blur-[60px] opacity-20 rounded-full"></div>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icononly_transparent_nobuffer.png"
                             alt="Logo"
                             class="w-32 h-32 object-contain relative z-10" />
@@ -164,7 +164,7 @@ $faqs = array(
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="<?php echo home_url('/apply/'); ?>"
-                        class="group px-8 py-4 bg-[#d4952a] hover:bg-[#e8a838] text-[#1a1a4e] font-semibold rounded-lg transition-all hover:shadow-lg hover:shadow-[#d4952a]/20 relative overflow-hidden">
+                        class="group px-8 py-4 bg-[#d4b478] hover:bg-[#e8a838] text-[#0f203d] font-semibold rounded-lg transition-all hover:shadow-lg hover:shadow-[#d4b478]/20 relative overflow-hidden">
                         <span class="relative z-10 flex items-center gap-2">
                             Submit Your Application
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-1 transition-transform">
@@ -176,7 +176,7 @@ $faqs = array(
                     <a href="https://calendly.com/joanna-trueinfluencemethod/private-training"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="group px-8 py-4 border-2 border-[#d4952a] text-[#d4952a] hover:bg-[#d4952a]/10 font-semibold rounded-lg transition-all flex items-center gap-2 justify-center">
+                        class="group px-8 py-4 border-2 border-[#d4b478] text-[#d4b478] hover:bg-[#d4b478]/10 font-semibold rounded-lg transition-all flex items-center gap-2 justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:scale-110 transition-transform">
                             <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
                             <line x1="16" y1="2" x2="16" y2="6"></line>

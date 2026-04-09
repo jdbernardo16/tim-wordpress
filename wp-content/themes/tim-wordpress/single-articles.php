@@ -35,16 +35,16 @@
                             alt="Article cover"
                             class="w-full h-full object-cover" />
                     <?php endif; ?>
-                    <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a4e]/95 via-[#1a1a4e]/90 to-[#1a1a4e]"></div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/95 via-[#0f203d]/90 to-[#0f203d]"></div>
                 </div>
 
                 <div class="absolute inset-0">
-                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+                    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
                 </div>
 
                 <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
                     <div class="mb-6 flex items-center justify-center gap-4 flex-wrap">
-                        <a href="<?php echo get_post_type_archive_link('articles'); ?>" class="text-[#faf8f5]/60 hover:text-[#d4952a] transition-colors flex items-center gap-2 text-sm !no-underline">
+                        <a href="<?php echo get_post_type_archive_link('articles'); ?>" class="text-[#faf8f5]/60 hover:text-[#d4b478] transition-colors flex items-center gap-2 text-sm !no-underline">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="19" y1="12" x2="5" y2="12"></line>
                                 <polyline points="12 19 5 12 12 5"></polyline>
@@ -55,7 +55,7 @@
                         <?php
                         $categories = get_the_category();
                         if (!empty($categories)) :
-                            echo '<span class="text-[#d4952a] text-sm font-medium tracking-[0.2em] uppercase">' . esc_html($categories[0]->name) . '</span>';
+                            echo '<span class="text-[#d4b478] text-sm font-medium tracking-[0.2em] uppercase">' . esc_html($categories[0]->name) . '</span>';
                         endif;
                         ?>
                     </div>
@@ -66,7 +66,7 @@
 
                     <div class="flex items-center justify-center gap-4 text-sm text-[#faf8f5]/60">
                         <span><?php echo get_the_date(); ?></span>
-                        <span class="w-1 h-1 rounded-full bg-[#d4952a]" />
+                        <span class="w-1 h-1 rounded-full bg-[#d4b478]" />
                         <span><?php echo get_reading_time(); ?></span>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
 
             <!-- Article Content Section -->
             <section class="py-16 md:py-24 relative">
-                <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
 
                 <div class="max-w-3xl mx-auto px-6 relative z-10">
                     <article>

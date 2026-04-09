@@ -26,23 +26,23 @@
     <div class="overflow-x-hidden">
         <!-- Hero Section -->
         <section class="relative py-20 md:py-32 flex items-center justify-center overflow-hidden min-h-[80vh]">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
 
             <!-- Decorative elements -->
-            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4952a]/10 rounded-full blur-[100px]"></div>
-            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]"></div>
+            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4b478]/10 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#0f203d]/50 rounded-full blur-[120px]"></div>
 
             <!-- Floating particles -->
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 15; $i++): ?>
-                    <div class="absolute w-2 h-2 bg-[#d4952a]/30 rounded-full animate-float"
+                    <div class="absolute w-2 h-2 bg-[#d4b478]/30 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 6 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
             </div>
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
-                <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
                     Complimentary Experience
                 </span>
 
@@ -56,7 +56,7 @@
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a href="<?php echo home_url('/vault-registration/'); ?>"
-                        class="inline-flex items-center gap-2 bg-[#d4952a] hover:bg-[#b87d1f] text-[#1a1a4e] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
+                        class="inline-flex items-center gap-2 bg-[#d4b478] hover:bg-[#b87d1f] text-[#0f203d] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
                         <span class="uppercase tracking-wider">
                             Register Now
                         </span>
@@ -68,7 +68,7 @@
 
                 <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2">
                     <div class="animate-bounce">
-                        <svg class="w-6 h-6 text-[#d4952a] opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="w-6 h-6 text-[#d4b478] opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                         </svg>
                     </div>
@@ -77,10 +77,10 @@
         </section>
 
         <!-- About Section -->
-        <section class="py-20 md:py-28 bg-[#1a1a4e]">
+        <section class="py-20 md:py-28 bg-[#0f203d]">
             <div class="max-w-6xl mx-auto px-6 md:px-12">
                 <div class="max-w-3xl mx-auto text-center">
-                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                    <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
                         What is The Vault?
                     </span>
                     <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-8 leading-tight">
@@ -122,10 +122,10 @@
         </section>
 
         <!-- Benefits Section -->
-        <section class="py-20 md:py-28 bg-[#232360]">
+        <section class="py-20 md:py-28 bg-[#0f203d]">
             <div class="max-w-6xl mx-auto px-6 md:px-12">
                 <div class="text-center mb-16">
-                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                    <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
                         Why Join?
                     </span>
                     <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6 leading-tight">
@@ -168,34 +168,34 @@
                         ],
                     ];
                     foreach ($benefits as $benefit): ?>
-                        <div class="p-6 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-xl hover:border-[#d4952a]/30 transition-colors duration-300">
-                            <div class="w-12 h-12 bg-[#d4952a]/20 rounded-full flex items-center justify-center mb-4">
+                        <div class="p-6 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-xl hover:border-[#d4b478]/30 transition-colors duration-300">
+                            <div class="w-12 h-12 bg-[#d4b478]/20 rounded-full flex items-center justify-center mb-4">
                                 <?php if ($benefit['icon'] === 'shield'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                                     </svg>
                                 <?php elseif ($benefit['icon'] === 'message-circle'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                                     </svg>
                                 <?php elseif ($benefit['icon'] === 'users'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                         <circle cx="9" cy="7" r="4" />
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M23 21v-2a4 4 0 0 0-3-3.87" />
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 3.13a4 4 0 0 1 0 7.75" />
                                     </svg>
                                 <?php elseif ($benefit['icon'] === 'heart'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z" />
                                     </svg>
                                 <?php elseif ($benefit['icon'] === 'clock'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="12" cy="12" r="10" />
                                         <polyline points="12 6 12 12 16 14" />
                                     </svg>
                                 <?php elseif ($benefit['icon'] === 'calendar'): ?>
-                                    <svg class="w-6 h-6 text-[#d4952a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="w-6 h-6 text-[#d4b478]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
                                         <line x1="16" y1="2" x2="16" y2="6" />
                                         <line x1="8" y1="2" x2="8" y2="6" />
@@ -216,10 +216,10 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="py-20 md:py-28 bg-[#1a1a4e]">
+        <section class="py-20 md:py-28 bg-[#0f203d]">
             <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
                 <div class="p-12 md:p-16 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-3xl">
-                    <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                    <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
                         Complimentary
                     </span>
                     <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6 leading-tight">
@@ -230,7 +230,7 @@
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
                         <a href="<?php echo home_url('/vault-registration/'); ?>"
-                            class="inline-flex items-center gap-2 bg-[#d4952a] hover:bg-[#b87d1f] text-[#1a1a4e] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
+                            class="inline-flex items-center gap-2 bg-[#d4b478] hover:bg-[#b87d1f] text-[#0f203d] px-8 py-4 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl">
                             <span class="uppercase tracking-wider">
                                 Register Now
                             </span>
@@ -239,7 +239,7 @@
                             </svg>
                         </a>
                         <a href="<?php echo home_url('/'); ?>"
-                            class="text-[#faf8f5]/70 hover:text-[#d4952a] transition-colors text-sm font-medium tracking-wide uppercase">
+                            class="text-[#faf8f5]/70 hover:text-[#d4b478] transition-colors text-sm font-medium tracking-wide uppercase">
                             Explore Other Offerings
                         </a>
                     </div>

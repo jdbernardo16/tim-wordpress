@@ -13,19 +13,19 @@ $events = array(
         'type' => 'Speaker Training',
         'title' => 'Speak & Rise Speaker Training',
         'description' => 'An intensive workshop focused on developing authentic presence and delivering your message with impact.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>'
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>'
     ),
     array(
         'type' => 'Leadership Intensive',
         'title' => 'Leadership Intensives',
         'description' => 'Deep-dive sessions focused on authentic leadership and finding your voice as a leader.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>'
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg>'
     ),
     array(
         'type' => 'Strategy Days',
         'title' => 'Invitation-Only Strategy Days',
         'description' => 'Exclusive strategy sessions with Joanna for private clients looking to accelerate their growth.',
-        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><polyline points="3.27 6.96 12 12.01 20.73 6.96" /><line x1="12" y1="22.08" x2="12" y2="12" /></svg>'
+        'icon' => '<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><polyline points="3.27 6.96 12 12.01 20.73 6.96" /><line x1="12" y1="22.08" x2="12" y2="12" /></svg>'
     ),
 );
 
@@ -48,24 +48,24 @@ $events = array(
     <div class="overflow-x-hidden">
         <!-- Hero Section -->
         <section class="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
 
             <!-- Decorative elements -->
-            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4952a]/10 rounded-full blur-[100px]"></div>
-            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#232360]/50 rounded-full blur-[120px]"></div>
+            <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4b478]/10 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-[#0f203d]/50 rounded-full blur-[120px]"></div>
 
             <!-- Floating particles -->
             <div class="absolute inset-0 overflow-hidden">
                 <?php for ($i = 1; $i <= 15; $i++): ?>
-                    <div class="absolute w-2 h-2 bg-[#d4952a]/30 rounded-full animate-float"
+                    <div class="absolute w-2 h-2 bg-[#d4b478]/30 rounded-full animate-float"
                         style="left: <?php echo rand(0, 100); ?>%; top: <?php echo rand(0, 100); ?>%; animation-delay: <?php echo rand(0, 5); ?>s; animation-duration: <?php echo 6 + rand(0, 4); ?>s;">
                     </div>
                 <?php endfor; ?>
             </div>
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
-                <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 bg-[#d4952a] rounded-full animate-pulse" />
+                <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
+                    <span class="w-2 h-2 bg-[#d4b478] rounded-full animate-pulse" />
                     Quarterly Experiences
                 </span>
 
@@ -85,18 +85,18 @@ $events = array(
         </section>
 
         <!-- Past Events Section -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
 
             <div class="max-w-6xl mx-auto px-6 relative z-10">
                 <div class="text-center mb-16">
-                    <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
+                    <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
                         Past Events
                     </span>
-                    <h2 class="font-serif text-3xl md:text-5xl text-[#1a1a4e] mb-6">
+                    <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
                         Transformational Experiences
                     </h2>
-                    <p class="text-[#1a1a4e]/70 text-lg max-w-2xl mx-auto">
+                    <p class="text-[#0f203d]/70 text-lg max-w-2xl mx-auto">
                         Discover the kinds of events our community has experienced together.
                     </p>
                 </div>
@@ -117,12 +117,12 @@ $events = array(
         </section>
 
         <!-- What to Expect Section -->
-        <section class="py-24 md:py-32 bg-[#1a1a4e] text-[#faf8f5] relative overflow-hidden">
-            <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#d4952a]/10 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#0f203d] text-[#faf8f5] relative overflow-hidden">
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#d4b478]/10 rounded-full blur-[120px]"></div>
 
             <div class="max-w-6xl mx-auto px-6 relative z-10">
                 <div class="text-center mb-16">
-                    <span class="inline-flex items-center gap-2 bg-[#d4952a]/10 border border-[#d4952a]/30 text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
+                    <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-6">
                         What to Expect
                     </span>
                     <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
@@ -135,8 +135,8 @@ $events = array(
 
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div class="text-center">
-                        <div class="w-16 h-16 bg-[#d4952a]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <div class="w-16 h-16 bg-[#d4b478]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
                             </svg>
                         </div>
@@ -145,8 +145,8 @@ $events = array(
                     </div>
 
                     <div class="text-center">
-                        <div class="w-16 h-16 bg-[#d4952a]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <div class="w-16 h-16 bg-[#d4b478]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
                                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                             </svg>
@@ -156,8 +156,8 @@ $events = array(
                     </div>
 
                     <div class="text-center">
-                        <div class="w-16 h-16 bg-[#d4952a]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <div class="w-16 h-16 bg-[#d4b478]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="10" />
                                 <polygon points="10 8 16 12 10 16 10 8" />
                             </svg>
@@ -167,8 +167,8 @@ $events = array(
                     </div>
 
                     <div class="text-center">
-                        <div class="w-16 h-16 bg-[#d4952a]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4952a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <div class="w-16 h-16 bg-[#d4b478]/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#d4b478" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                                 <circle cx="9" cy="7" r="4" />
                                 <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -183,21 +183,21 @@ $events = array(
         </section>
 
         <!-- CTA Section -->
-        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#1a1a4e] relative overflow-hidden">
-            <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
 
             <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
-                <h2 class="font-serif text-3xl md:text-5xl text-[#1a1a4e] mb-6">
+                <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
                     Ready to Join Our Next Retreat?
                 </h2>
 
-                <p class="text-[#1a1a4e]/70 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
+                <p class="text-[#0f203d]/70 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
                     Private clients and Mastermind members receive exclusive access to our quarterly retreat experiences. Apply today to begin your journey.
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="<?php echo home_url('/apply/'); ?>"
-                        class="inline-flex items-center justify-center gap-3 bg-[#d4952a] text-white text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#b37a1f] transition-colors duration-300">
+                        class="inline-flex items-center justify-center gap-3 bg-[#d4b478] text-white text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#b37a1f] transition-colors duration-300">
                         Apply to Work With Joanna
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14" />
@@ -205,7 +205,7 @@ $events = array(
                         </svg>
                     </a>
                     <a href="<?php echo home_url('/programs/'); ?>"
-                        class="inline-flex items-center justify-center gap-3 border-2 border-[#d4952a] text-[#d4952a] text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#d4952a]/10 transition-colors duration-300">
+                        class="inline-flex items-center justify-center gap-3 border-2 border-[#d4b478] text-[#d4b478] text-sm uppercase tracking-widest px-8 py-4 rounded-full font-medium hover:bg-[#d4b478]/10 transition-colors duration-300">
                         Explore Programs
                     </a>
                 </div>

@@ -1,24 +1,28 @@
 <?php
 
-if (is_file(__DIR__.'/vendor/autoload_packages.php')) {
-    require_once __DIR__.'/vendor/autoload_packages.php';
+if (is_file(__DIR__ . '/vendor/autoload_packages.php')) {
+    require_once __DIR__ . '/vendor/autoload_packages.php';
 }
 
 function tailpress(): TailPress\Framework\Theme
 {
     return TailPress\Framework\Theme::instance()
-        ->assets(fn($manager) => $manager
-            ->withCompiler(new TailPress\Framework\Assets\ViteCompiler, fn($compiler) => $compiler
-                ->registerAsset('resources/css/app.css')
-                ->registerAsset('resources/js/app.js')
-                ->editorStyleFile('resources/css/editor-style.css')
-            )
-            ->enqueueAssets()
+        ->assets(
+            fn($manager) => $manager
+                ->withCompiler(
+                    new TailPress\Framework\Assets\ViteCompiler,
+                    fn($compiler) => $compiler
+                        ->registerAsset('resources/css/app.css')
+                        ->registerAsset('resources/js/app.js')
+                        ->editorStyleFile('resources/css/editor-style.css')
+                )
+                ->enqueueAssets()
         )
         ->features(fn($manager) => $manager->add(TailPress\Framework\Features\MenuOptions::class))
-        ->menus(fn($manager) => $manager
-            ->add('primary', __('Primary Menu', 'tailpress'))
-            ->add('footer', __('Footer Menu', 'tailpress'))
+        ->menus(
+            fn($manager) => $manager
+                ->add('primary', __('Primary Menu', 'tailpress'))
+                ->add('footer', __('Footer Menu', 'tailpress'))
         )
         ->themeSupport(fn($manager) => $manager->add([
             'title-tag',
@@ -43,7 +47,8 @@ tailpress();
 /**
  * Enqueue Theme JavaScript
  */
-function tim_wordpress_enqueue_scripts() {
+function tim_wordpress_enqueue_scripts()
+{
     wp_enqueue_script(
         'tim-wordpress-theme',
         get_template_directory_uri() . '/resources/js/theme.js',
@@ -57,7 +62,8 @@ add_action('wp_enqueue_scripts', 'tim_wordpress_enqueue_scripts');
 /**
  * Register Google Fonts
  */
-function tim_wordpress_register_google_fonts() {
+function tim_wordpress_register_google_fonts()
+{
     wp_enqueue_style('tim-wordpress-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap', array(), null);
 }
 add_action('wp_enqueue_scripts', 'tim_wordpress_register_google_fonts');
@@ -65,17 +71,18 @@ add_action('wp_enqueue_scripts', 'tim_wordpress_register_google_fonts');
 /**
  * Add theme support for custom colors
  */
-function tim_wordpress_add_custom_colors() {
+function tim_wordpress_add_custom_colors()
+{
     add_theme_support('editor-color-palette', array(
         array(
             'name'  => __('Navy', 'tim-wordpress'),
             'slug'  => 'navy',
-            'color' => '#1a1a4e',
+            'color' => '#0f203d',
         ),
         array(
             'name'  => __('Gold', 'tim-wordpress'),
             'slug'  => 'gold',
-            'color' => '#d4952a',
+            'color' => '#d4b478',
         ),
         array(
             'name'  => __('Gold Light', 'tim-wordpress'),
@@ -96,7 +103,8 @@ add_action('after_setup_theme', 'tim_wordpress_add_custom_colors');
  */
 
 // Articles Post Type
-function register_articles_post_type() {
+function register_articles_post_type()
+{
     register_post_type('articles', [
         'labels' => [
             'name' => 'Articles',
@@ -123,7 +131,8 @@ function register_articles_post_type() {
 add_action('init', 'register_articles_post_type');
 
 // Blog Posts Post Type
-function register_blog_post_type() {
+function register_blog_post_type()
+{
     register_post_type('blog', [
         'labels' => [
             'name' => 'Blog Posts',
@@ -150,7 +159,8 @@ function register_blog_post_type() {
 add_action('init', 'register_blog_post_type');
 
 // Media Items Post Type
-function register_media_post_type() {
+function register_media_post_type()
+{
     register_post_type('media', [
         'labels' => [
             'name' => 'Media Items',
@@ -177,7 +187,8 @@ function register_media_post_type() {
 add_action('init', 'register_media_post_type');
 
 // Tips Post Type
-function register_tips_post_type() {
+function register_tips_post_type()
+{
     register_post_type('tips', [
         'labels' => [
             'name' => 'Tips',
@@ -206,7 +217,8 @@ add_action('init', 'register_tips_post_type');
 /**
  * Flush Rewrite Rules on Theme Activation
  */
-function tim_wordpress_flush_rewrite_rules() {
+function tim_wordpress_flush_rewrite_rules()
+{
     register_articles_post_type();
     register_blog_post_type();
     register_media_post_type();
@@ -218,18 +230,20 @@ register_activation_hook(__FILE__, 'tim_wordpress_flush_rewrite_rules');
 /**
  * Add Reading Time Helper Function
  */
-function get_reading_time() {
+function get_reading_time()
+{
     $content = get_post_field('post_content', get_the_ID());
     $word_count = str_word_count(strip_tags($content));
     $reading_time = ceil($word_count / 200); // Average reading speed: 200 words per minute
-    
+
     return $reading_time . ' min read';
 }
 
 /**
  * Add Categories to Custom Post Types
  */
-function add_categories_to_custom_post_types() {
+function add_categories_to_custom_post_types()
+{
     register_taxonomy_for_object_type('category', 'articles');
     register_taxonomy_for_object_type('category', 'blog');
     register_taxonomy_for_object_type('category', 'media');

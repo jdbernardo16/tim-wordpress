@@ -30,16 +30,16 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/img1.webp"
                     alt="Background"
                     class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a4e]/90 via-[#1a1a4e]/85 to-[#1a1a4e]/95"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/90 via-[#0f203d]/85 to-[#0f203d]/95"></div>
             </div>
 
             <div class="absolute inset-0">
-                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#d4952a]/5 rounded-full blur-[120px]"></div>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
             </div>
 
             <div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
                 <div class="mb-6">
-                    <span class="text-[#d4952a] text-sm md:text-base font-medium tracking-[0.2em] uppercase">
+                    <span class="text-[#d4b478] text-sm md:text-base font-medium tracking-[0.2em] uppercase">
                         Articles & Insights
                     </span>
                 </div>
@@ -56,8 +56,8 @@
 
         <!-- Articles Grid Section -->
         <section class="py-20 md:py-32 relative">
-            <div class="absolute inset-0 bg-gradient-to-b from-[#1a1a4e] via-[#232360] to-[#1a1a4e]"></div>
-            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#d4952a]/5 to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#d4b478]/5 to-transparent"></div>
 
             <div class="max-w-7xl mx-auto px-6 relative z-10">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

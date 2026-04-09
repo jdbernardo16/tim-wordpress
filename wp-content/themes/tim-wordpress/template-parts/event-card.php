@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part: Event Card
  * 
@@ -15,17 +16,17 @@ $event_icon = get_query_var('event_icon', '');
 ?>
 
 <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border border-[#faf8f5]">
-    <div class="h-48 bg-gradient-to-br from-[#1a1a4e] to-[#232360] flex items-center justify-center">
+    <div class="h-48 bg-gradient-to-br from-[#0f203d] to-[#0f203d] flex items-center justify-center">
         <?php echo $event_icon; ?>
     </div>
     <div class="p-6">
-        <span class="text-[#d4952a] text-xs font-bold tracking-[0.2em] uppercase">
+        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase">
             <?php echo esc_html($event_type); ?>
         </span>
-        <h3 class="font-serif text-xl text-[#1a1a4e] mt-2 mb-3">
+        <h3 class="font-serif text-xl text-[#0f203d] mt-2 mb-3">
             <?php echo esc_html($event_title); ?>
         </h3>
-        <p class="text-[#1a1a4e]/60 text-sm leading-relaxed">
+        <p class="text-[#0f203d]/60 text-sm leading-relaxed">
             <?php echo esc_html($event_description); ?>
         </p>
     </div>
