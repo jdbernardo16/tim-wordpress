@@ -79,7 +79,7 @@ $faqs = array(
 
             <div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
                 <span class="inline-flex items-center gap-2 bg-[#d4b478]/10 border border-[#d4b478]/30 text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase px-4 py-2 rounded-full mb-8">
-                    <span class="w-2 h-2 bg-[#d4b478] rounded-full animate-pulse" />
+                    <span class="w-2 h-2 bg-[#d4b478] rounded-full animate-pulse"></span>
                     Frequently Asked Questions
                 </span>
 

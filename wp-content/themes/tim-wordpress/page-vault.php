@@ -26,7 +26,12 @@
     <div class="overflow-x-hidden">
         <!-- Hero Section -->
         <section class="relative py-20 md:py-32 flex items-center justify-center overflow-hidden min-h-[80vh]">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
+            <div class="absolute inset-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/img4.webp"
+                    alt="Background"
+                    class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-br from-[#0f203d]/70 via-[#0f203d]/65 to-[#0f203d]/95"></div>
+            </div>
 
             <!-- Decorative elements -->
             <div class="absolute top-20 left-10 w-72 h-72 bg-[#d4b478]/10 rounded-full blur-[100px]"></div>
@@ -77,18 +82,30 @@
         </section>
 
         <!-- About Section -->
-        <section class="py-20 md:py-28 bg-[#0f203d]">
+        <section class="py-20 md:py-28 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
+
             <div class="max-w-6xl mx-auto px-6 md:px-12">
-                <div class="max-w-3xl mx-auto text-center">
-                    <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
-                        What is The Vault?
-                    </span>
-                    <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-8 leading-tight">
-                        A Safe Space for Your Voice
-                    </h2>
-                    <p class="text-[#faf8f5]/80 font-light leading-relaxed text-lg mb-8">
-                        The Vault is Joanna's gift to women leaders seeking a supportive community to share their story, practice their message, and connect with like-minded peers. This complimentary monthly gathering provides a judgment-free environment where you can speak authentically and receive gentle guidance.
-                    </p>
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
+                            What is The Vault?
+                        </span>
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-8 leading-tight">
+                            A Safe Space for Your Voice
+                        </h2>
+                        <p class="text-[#0f203d]/70 font-light leading-relaxed text-lg">
+                            The Vault is Joanna's gift to women leaders seeking a supportive community to share their story, practice their message, and connect with like-minded peers. This complimentary monthly gathering provides a judgment-free environment where you can speak authentically and receive gentle guidance.
+                        </p>
+                    </div>
+                    <div class="relative">
+                        <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/img5.webp"
+                                alt="Women leaders gathering in The Vault"
+                                class="w-full h-[400px] object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0f203d]/50 to-transparent"></div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
@@ -108,11 +125,11 @@
                         ],
                     ];
                     foreach ($features as $index => $feature): ?>
-                        <div class="p-8 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-2xl text-center">
-                            <h3 class="font-serif text-xl text-[#faf8f5] mb-4">
+                        <div class="p-8 bg-white border border-[#0f203d]/10 rounded-2xl text-center shadow-sm">
+                            <h3 class="font-serif text-xl text-[#0f203d] mb-4">
                                 <?php echo esc_html($feature['title']); ?>
                             </h3>
-                            <p class="text-[#faf8f5]/70 font-light leading-relaxed">
+                            <p class="text-[#0f203d]/70 font-light leading-relaxed">
                                 <?php echo esc_html($feature['description']); ?>
                             </p>
                         </div>
@@ -216,9 +233,18 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="py-20 md:py-28 bg-[#0f203d]">
-            <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
-                <div class="p-12 md:p-16 bg-[#faf8f5]/5 border border-[#faf8f5]/10 rounded-3xl">
+        <section class="py-20 md:py-28 relative overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carousel/img7.webp"
+                    alt="Background"
+                    class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/95 via-[#0f203d]/90 to-[#0f203d]/95"></div>
+            </div>
+            <div class="absolute inset-0">
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#d4b478]/5 rounded-full blur-[150px]"></div>
+            </div>
+            <div class="max-w-4xl mx-auto px-6 md:px-12 text-center relative z-10">
+                <div class="p-12 md:p-16 bg-[#0f203d]/90 backdrop-blur-sm border border-[#faf8f5]/20 rounded-3xl">
                     <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase mb-6 block">
                         Complimentary
                     </span>

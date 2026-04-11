@@ -130,7 +130,7 @@ $iconMap = array(
             <section class="relative min-h-[80vh] flex items-center">
                 <div class="absolute inset-0">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/corporate/banner.webp" alt="Corporate leadership" class="w-full h-full object-cover opacity-30" />
-                    <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/70 via-[#0f203d]/50 to-[#0f203d]"></div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d]/50 via-[#0f203d]/30 to-[#0f203d]"></div>
                 </div>
                 <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-12 text-center">
                     <div class="mb-6">
@@ -158,13 +158,13 @@ $iconMap = array(
             </section>
 
             <!-- Problem Section - Visual -->
-            <section class="py-20 md:py-28 bg-[#f8f4ec]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-12">
                         <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             The Challenge
                         </span>
-                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
                             Presentations That Inform But Don't Convert
                         </h2>
                     </div>
@@ -179,11 +179,11 @@ $iconMap = array(
                         </div>
                         <div class="flex flex-col justify-center space-y-6">
                             <?php foreach ($problemItems as $index => $item): ?>
-                                <div class="flex items-center gap-4 p-4 bg-white/50 rounded-xl hover:bg-white/70 transition-colors">
+                                <div class="flex items-center gap-4 p-4 bg-[#faf8f5]/5 rounded-xl hover:bg-[#faf8f5]/10 transition-colors">
                                     <div class="w-10 h-10 bg-[#d4b478]/20 rounded-full flex items-center justify-center flex-shrink-0">
                                         <?php echo $iconMap['Target']; ?>
                                     </div>
-                                    <p class="text-[#0f203d]/90 font-light">
+                                    <p class="text-[#faf8f5]/90 font-light">
                                         <?php echo esc_html($item); ?>
                                     </p>
                                 </div>
@@ -194,16 +194,16 @@ $iconMap = array(
             </section>
 
             <!-- Solution Section - Visual -->
-            <section class="py-20 md:py-28 bg-[#0f203d]">
+            <section class="py-20 md:py-28 bg-[#f8f4ec]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
                         <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             The Solution
                         </span>
-                        <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
                             True Influence Method™
                         </h2>
-                        <p class="text-lg text-[#faf8f5]/80 font-light max-w-2xl mx-auto">
+                        <p class="text-lg text-[#0f203d]/80 font-light max-w-2xl mx-auto">
                             Every presentation drives measurable business
                             outcomes
                         </p>
@@ -234,20 +234,20 @@ $iconMap = array(
             </section>
 
             <!-- Services Section - Visual Cards -->
-            <section id="services" class="py-20 md:py-28 bg-[#f8f4ec]">
+            <section id="services" class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
                         <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Services
                         </span>
-                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
                             Three Levels of Transformation
                         </h2>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <?php foreach ($services as $index => $service): ?>
-                            <div class="group <?php echo isset($service['popular']) && $service['popular'] ? 'bg-[#d4b478]/10 border-2 border-[#d4b478]/50' : 'bg-white/50 border border-[#e7d4c5]/30'; ?> rounded-2xl overflow-hidden hover:border-[#d4b478]/50 transition-all duration-500 relative">
+                            <div class="group <?php echo isset($service['popular']) && $service['popular'] ? 'bg-[#d4b478]/5 border-2 border-[#d4b478]/50' : 'bg-[#faf8f5]/5 border border-[#faf8f5]/10'; ?> rounded-2xl overflow-hidden hover:border-[#d4b478]/50 transition-all duration-500 relative">
                                 <?php if (isset($service['popular']) && $service['popular']): ?>
                                     <div class="absolute top-4 right-4 bg-[#d4b478] text-[#0f203d] px-3 py-1 text-xs font-bold tracking-[0.2em] uppercase rounded-full z-10">
                                         Popular
@@ -269,15 +269,15 @@ $iconMap = array(
                                             <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase">
                                                 <?php echo esc_html($service['level']); ?>
                                             </span>
-                                            <h3 class="font-serif text-xl text-[#0f203d]">
+                                            <h3 class="font-serif text-xl text-[#faf8f5]">
                                                 <?php echo esc_html($service['name']); ?>
                                             </h3>
                                         </div>
                                     </div>
-                                    <p class="text-[#0f203d]/70 font-light text-sm mb-4">
+                                    <p class="text-[#faf8f5]/70 font-light text-sm mb-4">
                                         <?php echo esc_html($service['description']); ?>
                                     </p>
-                                    <ul class="space-y-2 text-sm text-[#0f203d]/80">
+                                    <ul class="space-y-2 text-sm text-[#faf8f5]/80">
                                         <?php foreach ($service['features'] as $feature): ?>
                                             <li class="flex items-start gap-2">
                                                 <?php echo $iconMap['ArrowRight']; ?>
@@ -295,24 +295,24 @@ $iconMap = array(
             </section>
 
             <!-- Results Section - Visual -->
-            <section class="py-20 md:py-28 bg-[#0f203d]">
+            <section class="py-20 md:py-28 bg-[#f8f4ec]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
                         <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Results
                         </span>
-                        <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
                             Tangible Outcomes
                         </h2>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                         <?php foreach ($results as $index => $result): ?>
-                            <div class="text-center p-8 bg-[#faf8f5]/5 border border-[#d4b478]/30 rounded-2xl">
+                            <div class="text-center p-8 bg-[#e7d4c5]/30 border border-[#d4b478]/30 rounded-2xl">
                                 <div class="text-4xl md:text-5xl font-serif text-[#d4b478] mb-3">
                                     <?php echo esc_html($result['value']); ?>
                                 </div>
-                                <p class="text-[#faf8f5]/80 font-light">
+                                <p class="text-[#0f203d]/80 font-light">
                                     <?php echo esc_html($result['label']); ?>
                                 </p>
                             </div>
@@ -340,27 +340,27 @@ $iconMap = array(
             </section>
 
             <!-- Investment Section - Clean Pricing -->
-            <section class="py-20 md:py-28 bg-[#f8f4ec]">
+            <section class="py-20 md:py-28 bg-[#0f203d]">
                 <div class="max-w-7xl mx-auto px-6 md:px-12">
                     <div class="text-center mb-16">
                         <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-4">
                             Investment
                         </span>
-                        <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
+                        <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
                             Choose Your Level
                         </h2>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <?php foreach ($services as $index => $service): ?>
-                            <div class="p-8 rounded-2xl text-center <?php echo isset($service['popular']) && $service['popular'] ? 'bg-[#d4b478]/10 border-2 border-[#d4b478]/50' : 'bg-white/50 border border-[#e7d4c5]/30'; ?>">
+                            <div class="p-8 rounded-2xl text-center <?php echo isset($service['popular']) && $service['popular'] ? 'bg-[#d4b478]/10 border-2 border-[#d4b478]/50' : 'bg-[#faf8f5]/5 border border-[#faf8f5]/10'; ?>">
                                 <div class="inline-flex items-center justify-center w-16 h-16 bg-[#d4b478]/20 rounded-full mb-4">
                                     <?php echo isset($iconMap[$service['icon']]) ? $iconMap[$service['icon']] : $iconMap['Target']; ?>
                                 </div>
                                 <span class="text-[#d4b478] text-xs font-bold tracking-[0.2em] uppercase block mb-2">
                                     <?php echo esc_html($service['level']); ?>
                                 </span>
-                                <h3 class="font-serif text-xl text-[#0f203d] mb-4">
+                                <h3 class="font-serif text-xl text-[#faf8f5] mb-4">
                                     <?php echo esc_html($service['name']); ?>
                                 </h3>
                                 <div class="text-4xl font-serif text-[#d4b478] mb-6">
@@ -376,12 +376,12 @@ $iconMap = array(
             </section>
 
             <!-- CTA Section -->
-            <section class="py-20 md:py-28 bg-[#0f203d]">
+            <section class="py-20 md:py-28 bg-[#f8f4ec]">
                 <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
-                    <h2 class="font-serif text-3xl md:text-5xl text-[#faf8f5] mb-6">
+                    <h2 class="font-serif text-3xl md:text-5xl text-[#0f203d] mb-6">
                         Ready to Transform?
                     </h2>
-                    <p class="text-lg text-[#faf8f5]/80 font-light leading-relaxed mb-10">
+                    <p class="text-lg text-[#0f203d]/80 font-light leading-relaxed mb-10">
                         Let's discuss how the True Influence Method™ can
                         help you achieve measurable business outcomes.
                     </p>

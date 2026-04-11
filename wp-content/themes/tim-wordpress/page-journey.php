@@ -14,7 +14,7 @@ $phases = array(
         'title' => 'Discover',
         'subtitle' => 'The Defining Moment',
         'description' => 'Before any message can be crafted, truth must be found. In this phase, Joanna\'s interview-based process uncovers the defining moment behind your work — the experience that shaped your leadership, your values, and your vision. Most leaders have never named it. This is where it surfaces.',
-        'image' => 'https://picsum.photos/600/500?random=5',
+        'image' => get_template_directory_uri() . '/assets/images/carousel/img1.webp',
         'order' => 'image-first'
     ),
     array(
@@ -22,7 +22,7 @@ $phases = array(
         'title' => 'Clarify',
         'subtitle' => 'Your Core Message',
         'description' => 'From your story, we build your message. Not a tagline. Not an elevator pitch. A clear, resonant expression of who you are, what you stand for, and why it matters — articulated in language that is authentically yours and unmistakably powerful.',
-        'image' => 'https://picsum.photos/600/500?random=6',
+        'image' => get_template_directory_uri() . '/assets/images/carousel/img2.webp',
         'order' => 'text-first'
     ),
     array(
@@ -30,7 +30,7 @@ $phases = array(
         'title' => 'Craft',
         'subtitle' => 'Your Signature Talk or Narrative',
         'description' => 'With your message clear, we build structure. Whether it\'s a keynote, a leadership narrative, or a brand story, this phase gives shape to your message — emotional arc, strategic structure, and stories that bring it to life.',
-        'image' => 'https://picsum.photos/600/500?random=7',
+        'image' => get_template_directory_uri() . '/assets/images/carousel/img3.webp',
         'order' => 'image-first'
     ),
     array(
@@ -38,7 +38,7 @@ $phases = array(
         'title' => 'Deliver',
         'subtitle' => 'Voice, Presence & Authority',
         'description' => 'A message is only as powerful as its delivery. In this phase, we train your body, your voice, and your presence — so that when you speak, the message lands not just intellectually but emotionally. This is where authority becomes embodied.',
-        'image' => 'https://picsum.photos/600/500?random=8',
+        'image' => get_template_directory_uri() . '/assets/images/carousel/img5.webp',
         'order' => 'text-first'
     ),
     array(
@@ -46,7 +46,7 @@ $phases = array(
         'title' => 'Lead',
         'subtitle' => 'Thought Leadership & Lasting Impact',
         'description' => 'The final phase is about integration and amplification. You step fully into your role as a thought leader — speaking in rooms, on stages, in media — with a message that is clear, consistent, and creates lasting influence.',
-        'image' => 'https://picsum.photos/600/500?random=9',
+        'image' => get_template_directory_uri() . '/assets/images/carousel/img6.webp',
         'order' => 'image-first'
     ),
 );
@@ -89,7 +89,7 @@ $phases = array(
                 <!-- Journey Image -->
                 <div class="relative mb-12 inline-block">
                     <div class="absolute inset-0 bg-[#d4b478] blur-[60px] opacity-20 rounded-full"></div>
-                    <img src="https://picsum.photos/500/300?random=4"
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/carousel/img7.webp"
                         alt="Journey visualization - Path winding through mountains or a road forward"
                         class="w-64 h-40 md:w-80 md:h-48 rounded-2xl object-cover relative z-10 shadow-2xl" />
                 </div>
@@ -176,7 +176,7 @@ $phases = array(
                     <div class="relative">
                         <!-- Testimonial Image -->
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl">
-                            <img src="https://picsum.photos/600/500?random=10"
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/corporate/executive.webp"
                                 alt="Client transformation - Photo showing authentic connection and breakthrough moment"
                                 class="w-full h-[400px] object-cover" />
                             <div class="absolute inset-0 bg-gradient-to-t from-[#0f203d]/80 to-transparent"></div>
@@ -206,7 +206,7 @@ $phases = array(
                     <!-- Journey Complete Image -->
                     <div class="relative inline-block">
                         <div class="absolute inset-0 bg-[#d4b478] blur-[60px] opacity-20 rounded-full"></div>
-                        <img src="https://picsum.photos/400/250?random=11"
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/carousel/img8.webp"
                             alt="Begin your journey - Beautiful sunrise or open path forward"
                             class="w-64 h-40 rounded-2xl object-cover relative z-10 shadow-2xl" />
                     </div>

@@ -95,9 +95,8 @@ $testimonials = array(
         </section>
 
         <!-- Testimonials Section -->
-        <section class="py-20 md:py-32 relative">
-            <div class="absolute inset-0 bg-gradient-to-b from-[#0f203d] via-[#0f203d] to-[#0f203d]"></div>
-            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#d4b478]/5 to-transparent"></div>
+        <section class="py-24 md:py-32 bg-[#faf8f5] text-[#0f203d] relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-[#d4b478]/5 rounded-full blur-[120px]"></div>
 
             <div class="max-w-7xl mx-auto px-6 relative z-10">
                 <div class="text-center mb-16">
@@ -107,10 +106,10 @@ $testimonials = array(
                             <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path>
                         </svg>
                     </div>
-                    <h2 class="font-serif text-3xl md:text-4xl text-[#faf8f5] mb-4">
+                    <h2 class="font-serif text-3xl md:text-4xl text-[#0f203d] mb-4">
                         Voices of Transformation
                     </h2>
-                    <p class="text-[#faf8f5]/60 max-w-2xl mx-auto">
+                    <p class="text-[#0f203d]/70 max-w-2xl mx-auto">
                         Real stories from leaders who found their voice and transformed their impact.
                     </p>
                 </div>
